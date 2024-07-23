@@ -1,0 +1,93 @@
+
+{
+    padding: 0;
+    margin: 0;
+}
+.box {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    /*100vh是指的可视区域的总高度*/
+    background-image: url(../img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text {
+    font-size:80px;
+}
+.custom-button {
+    background-color: #ff009d;
+    /* 替换为你的图片路径*/
+    background-size: cover;
+    border: none;
+    color: White;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.atext {
+    color:black }
+.footer-text {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    /* Light grey background*/
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+    /* Ensure the footer is above other content*/
+     }
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 622px;
+}
+.main p {
+    font-weight: 600;
+    font-size: 28px;
+}
+.main span {
+    color: #09f;
+    font-size: 14px;
+}
+.image-button {
+    background-color: #09f;
+    /* 替换为你的图片路径*/
+    background-size: cover;
+    /* 覆盖整个按钮*/
+    background-position: center;
+    /* 图片居中显示*/
+    background-repeat: no-repeat;
+    /* 不重复图片*/
+    border: none;
+    /* 移除默认边框*/
+    padding: 30px 50px;
+    /* 设置按钮的内边距*/
+    color: white;
+    /* 文本颜色*/
+    font-size: 25px;
+    /* 字体大小*/
+    cursor: pointer;
+    /* 鼠标悬停时显示指针*/
+    outline: none;
+    /* 移除焦点轮廓*/
+    transition: background-color 0.3s;
+    /* 平滑过渡效果*/
+     }
+.image-button:hover {
+    background-color: url("img/button_h");
+    /* 鼠标悬停时的背景颜色*/
+    
+}
+.image-button:active {
+    background-color: url("img/button_a");
+    /* 鼠标点击时的背景颜色*/
+    
+}
